@@ -8,7 +8,7 @@ edition = "2021"
 [dependencies]
 apps_shared = { path = "../shared" }
 async-graphql = "5.0.7"
-async-graphql-actix-web = "5.0.7"
+async-graphql-actix-web = "7.0.3"
 jsonwebtoken = "8.3.0"
 actix-web = "4.3.1"
 serde = { version = "1.0.159", features = ["derive"] }
