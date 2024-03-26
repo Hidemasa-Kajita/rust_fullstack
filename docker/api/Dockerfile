@@ -1,5 +1,5 @@
 # Use the Rust image as the build stage
-FROM rust:1.68.2-alpine as builder
+FROM rust:1.77.0-alpine as builder
 
 RUN apk add --no-cache musl-dev
 

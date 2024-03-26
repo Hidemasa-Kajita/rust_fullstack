@@ -7,16 +7,16 @@ edition = "2021"
 
 [dependencies]
 apps_shared = { path = "../shared" }
-async-graphql = "5.0.7"
-async-graphql-actix-web = "5.0.7"
+async-graphql = "5.0.10"
+async-graphql-actix-web = "5.0.10"
 jsonwebtoken = "8.3.0"
-actix-web = "4.3.1"
-serde = { version = "1.0.159", features = ["derive"] }
-serde_json = "1.0.95"
-actix-cors = "0.6.4"
-sqlx = { version="0.6.3", features = [ "runtime-tokio-rustls", "mysql" ]}
-tokio = { version = "1.27.0", features = ["full"] }
+actix-web = "4.5.1"
+serde = { version = "1.0.197", features = ["derive"] }
+serde_json = "1.0.115"
+actix-cors = "0.7.0"
+sqlx = { version="0.7.4", features = [ "runtime-tokio-rustls", "mysql" ]}
+tokio = { version = "1.36.0", features = ["full"] }
 envy = "0.4.2"
 
 [dev-dependencies]
-actix-rt = "2.8.0"
+actix-rt = "2.9.0"
