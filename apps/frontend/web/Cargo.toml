@@ -8,5 +8,5 @@ edition = "2021"
 [dependencies]
 apps_shared = { path = "../../shared" }
 apps_frontend_package_ui = { path = "../package/ui" }
-stylist = { version = "0.12.0", features = ["yew_integration"] }
-yew = { version = "0.20.0", features = ["csr"] }
+stylist = { version = "0.13.0", features = ["yew_integration"] }
+yew = { version = "0.21.0", features = ["csr"] }
